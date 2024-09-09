@@ -1,0 +1,105 @@
+.home-container1 {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-container2 {
+  width: 366px;
+  height: 695px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 6px;
+  border-radius: 20px;
+  justify-content: flex-start;
+}
+.home-container3 {
+  width: 100%;
+  height: 22px;
+  display: flex;
+  position: relative;
+  align-self: flex-start;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius4);
+  background-color: #000000;
+  border-top-left-radius: var(--dl-radius-radius-radius8);
+  border-top-right-radius: var(--dl-radius-radius-radius8);
+}
+.home-icon10 {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: #ffffff;
+  width: 20px;
+  height: 16px;
+  align-self: center;
+}
+.home-date-time {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: #ffffff;
+  font-size: 13px;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+.home-icon12 {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: #ffffff;
+  width: 18px;
+  height: 100%;
+  align-self: flex-start;
+  margin-left: 190px;
+}
+.home-icon14 {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: #ffffff;
+  width: 14px;
+  height: 15px;
+}
+.home-icon16 {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: #ffffff;
+  width: 20px;
+  height: 100%;
+}
+.home-icon18 {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: #ffffff;
+  width: 20px;
+  height: 100%;
+  margin-left: 0px;
+}
+.home-navlink {
+  display: contents;
+}
+.home-icon20 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 116px;
+  bottom: 0px;
+  height: 116px;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+  transition: 0.3s;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-round);
+  text-decoration: none;
+}
+.home-icon20:hover {
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+}
+.home-icon20:active {
+  animation-name: pulse;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
